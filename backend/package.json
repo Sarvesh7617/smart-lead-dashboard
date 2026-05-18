@@ -7,6 +7,7 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "dev": "npx tsc --watch",
     "start": "node -r dotenv/config dist/index.js"
   },
