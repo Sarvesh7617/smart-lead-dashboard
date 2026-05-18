@@ -115,8 +115,8 @@ const loginUser = asyncHandler(async (req: Request, res: Response) => {
 
       const option:CookieOptions={
         httpOnly:true,
-        secure:false,
-        // sameSite: "None"   // for cross-site cookie (frontend & backend different domains)
+        secure:true,
+        sameSite: "None"   // for cross-site cookie (frontend & backend different domains)
       }
 
       return res.status(200)
@@ -181,8 +181,8 @@ const logoutUser = asyncHandler(async (req: Request, res: Response) => {
       )
       const options: CookieOptions = {
         httpOnly: true,
-        secure: false,
-        // sameSite: "None"   // for cross-site cookie (frontend & backend different domains)
+        secure: true,
+        sameSite: "None"   // for cross-site cookie (frontend & backend different domains)
       };
   
       return res
