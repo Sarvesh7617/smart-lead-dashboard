@@ -7,7 +7,7 @@ const axiosInstance=axios.create()
 
 
 
-axiosInstance.defaults.baseURL=BASE_URL           //http://localhost:PORT
+axiosInstance.defaults.baseURL=`${BASE_URL}/api/v1`           //http://localhost:PORT
 
 
 axiosInstance.defaults.withCredentials=true        //enable cookies base authentication 
