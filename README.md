@@ -78,7 +78,7 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 ### 1. Clone the repository
 
 ```bash
-    git clone https://github.com/Sarvesh7617/smart-lead-dashboard.git
+  git clone https://github.com/Sarvesh7617/smart-lead-dashboard.git
 ```
 
 ## 📦 Backend Setup
@@ -87,12 +87,12 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 
 
 ```bash
-    cd backend
+  cd backend
 ```
 
 ### 3. Install dependencies
 ```bash
-    npm install
+  npm install
 ```
 
 ### 4. 🔐 Environment Variables
@@ -100,10 +100,10 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 #### Create a .env file in the root of your project and add your Appwrite credentials:
 
 ```bash
-    PORT=5000
-    MONGO_URI=your_mongodb_uri
-    ACCESS_TOKEN_SECRET=your_secret
-    REFRESH_TOKEN_SECRET=your_secret
+  PORT=5000
+  MONGO_URI=your_mongodb_uri
+  ACCESS_TOKEN_SECRET=your_secret
+  REFRESH_TOKEN_SECRET=your_secret
 ```
 
 ### 5. Run development server
@@ -111,12 +111,12 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 #### Run manually in two terminals
 
 ```bash
-    Terminal 1 (TypeScript Watch Mode)
-    npm run dev
+  Terminal 1 (TypeScript Watch Mode)
+  npm run dev
 ```
 ```bash
-    Terminal 2 (Start Server)
-    npm start
+  Terminal 2 (Start Server)
+  npm start
 ```
 
 ---
@@ -127,12 +127,12 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 
 
 ```bash
-    cd frontend
+  cd frontend
 ```
 
 ### 3. Install dependencies
 ```bash
-    npm install
+  npm install
 ```
 
 ### 4. 🔐 Environment Variables
@@ -140,14 +140,14 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 #### Create a .env file in the root of your project and add your Appwrite credentials:
 
 ```bash
-    VITE_BACKEND_URL="http://your_backend_localhost/api/v1"
-    BACKEND_URL="http://your_backend_localhost"
+  VITE_BACKEND_URL="http://your_backend_localhost/api/v1"
+  BACKEND_URL="http://your_backend_localhost"
 ```
 
 ### 5. Run development server
 
 ```bash
-    npm run dev
+  npm run dev
 ```
 
 ---
@@ -173,16 +173,16 @@ A full-stack **MERN CRM Dashboard** with authentication, RBAC, filtering, pagina
 ### Auth
 
 ```bash
-    POST /users/register
-    POST /users/login
-    POST /users/logout
-    GET  /users/current-user
+  POST /users/register
+  POST /users/login
+  POST /users/logout
+  GET  /users/current-user
 ```
 
 ### Leads
 
 ```bash
-    GET    /leads
-    POST   /leads
-    GET    /leads/export/csv
+  GET    /leads
+  POST   /leads
+  GET    /leads/export/csv
 ```
